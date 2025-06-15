@@ -1,0 +1,5 @@
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.Bool_Pgia.resources
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.Properties.Resources.resources
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.csproj.GenerateResource.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.csproj.CoreCompileInputs.cache
