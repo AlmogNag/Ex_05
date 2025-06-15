@@ -16,7 +16,7 @@ namespace Ex05
 
         static void GameRun()
         {
-            Application.Run(new NumberOfCancesForm()); // Example: 6 guesses
+            Application.Run(new NumberOfChancesForm()); // Example: 6 guesses
         }
     }
 }

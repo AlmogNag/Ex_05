@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Ex05
 {
-    public partial class NumberOfCancesForm : Form
+    public partial class NumberOfChancesForm : Form
     {
         private int m_NumOfChances = 4; 
-        public NumberOfCancesForm()
+        public NumberOfChancesForm()
         {
             InitializeComponent();
             buttonNumberOfChances.Text = $"Number of chances : {m_NumOfChances}"; 
@@ -36,6 +36,16 @@ namespace Ex05
             this.Hide();
             gameForm.ShowDialog();
             this.Show();  
+        }
+
+        private void NumberOfChancesForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumberOfChancesForm_Resize(object sender, EventArgs e)
+        {
+
         }
     }
 }

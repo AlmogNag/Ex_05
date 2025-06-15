@@ -119,5 +119,10 @@ namespace Ex05
                 m_TopSecretButtons[i].BackColor = target[i];
             }
         }
+
+        private void GameForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

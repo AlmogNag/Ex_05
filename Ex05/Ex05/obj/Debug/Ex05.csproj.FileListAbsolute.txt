@@ -9,3 +9,14 @@ C:\Users\nadav\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.exe
 C:\Users\nadav\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.pdb
 C:\Users\nadav\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.GameForm.resources
 C:\Users\nadav\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.NumberOfCancesForm.resources
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\bin\Debug\Ex05.exe.config
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\bin\Debug\Ex05.exe
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\bin\Debug\Ex05.pdb
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.ColorPickerForm.resources
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.GameForm.resources
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.NumberOfChancesForm.resources
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.csproj.GenerateResource.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.csproj.CoreCompileInputs.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.exe
+C:\Users\almog\OneDrive\Documents\GitHub\Ex_05\Ex05\Ex05\obj\Debug\Ex05.pdb
