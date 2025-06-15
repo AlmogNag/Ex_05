@@ -8,11 +8,15 @@ namespace Ex05
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            GameRun();
+        }
 
-            // Test with hardcoded value or launch input form
-            Application.Run(new MainForm(6)); // Example: 6 guesses
+        static void GameRun()
+        {
+            Application.Run(new NumberOfCancesForm()); // Example: 6 guesses
         }
     }
 }

@@ -6,14 +6,14 @@ using System.Windows.Forms;
 
 namespace Ex05
 {
-    public partial class MainForm : Form
+    public partial class GameForm : Form
     {
         private readonly int r_NumOfGuesses;
         private readonly GameLogic m_GameLogic;
         private readonly List<GuessRow> m_GuessRows = new List<GuessRow>();
         private readonly Button[] m_TopSecretButtons = new Button[4];
 
-        public MainForm(int i_NumOfGuesses)
+        public GameForm(int i_NumOfGuesses)
         {
             InitializeComponent();
             r_NumOfGuesses = i_NumOfGuesses;

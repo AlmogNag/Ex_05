@@ -1,6 +1,6 @@
 ﻿namespace Ex05
 {
-    partial class MainForm
+    partial class GameForm
     {
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelTopRow;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelGuessRows;
