@@ -1,15 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nadav\\Documents\\GitHub\\Ex04\\Ex05\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\guessrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\guessrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\colorpickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\colorpickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\colorpickerform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\colorpickerform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\nadav\\documents\\github\\ex_05\\ex05\\ex05\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 118,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +67,158 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameConstants.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameConstants.cs",
+              "RelativeDocumentMoniker": "Ex05\\GameConstants.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameConstants.cs",
+              "RelativeToolTip": "Ex05\\GameConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:17:45.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColorPickerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.Designer.cs",
+              "RelativeDocumentMoniker": "Ex05\\ColorPickerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.Designer.cs",
+              "RelativeToolTip": "Ex05\\ColorPickerForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:21:10.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameLogic.cs",
+              "RelativeDocumentMoniker": "Ex05\\GameLogic.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameLogic.cs",
+              "RelativeToolTip": "Ex05\\GameLogic.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T08:34:06.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColorPickerForm.resx",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.resx",
+              "RelativeDocumentMoniker": "Ex05\\ColorPickerForm.resx",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.resx",
+              "RelativeToolTip": "Ex05\\ColorPickerForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-15T11:11:43.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.cs",
+              "RelativeDocumentMoniker": "Ex05\\MainForm.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.cs",
+              "RelativeToolTip": "Ex05\\MainForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwE4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T08:56:29.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GuessRow.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GuessRow.cs",
+              "RelativeDocumentMoniker": "Ex05\\GuessRow.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GuessRow.cs*",
+              "RelativeToolTip": "Ex05\\GuessRow.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:26:54.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColorPickerForm.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.cs",
+              "RelativeDocumentMoniker": "Ex05\\ColorPickerForm.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.cs",
+              "RelativeToolTip": "Ex05\\ColorPickerForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:28:00.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.cs",
+              "RelativeDocumentMoniker": "Ex05\\MainForm.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.cs [Design]",
+              "RelativeToolTip": "Ex05\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T08:56:25.717Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ColorPickerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.cs",
+              "RelativeDocumentMoniker": "Ex05\\ColorPickerForm.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.cs [Design]",
+              "RelativeToolTip": "Ex05\\ColorPickerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:29:15.982Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\Program.cs",
+              "RelativeDocumentMoniker": "Ex05\\Program.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\Program.cs",
+              "RelativeToolTip": "Ex05\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:22:40.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Ex05\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.Designer.cs",
+              "RelativeToolTip": "Ex05\\MainForm.Designer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:32:31.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.resx",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.resx",
+              "RelativeDocumentMoniker": "Ex05\\MainForm.resx",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\MainForm.resx",
+              "RelativeToolTip": "Ex05\\MainForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-15T09:43:22.371Z",
+              "EditorCaption": ""
             }
           ]
         }

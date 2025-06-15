@@ -1,93 +1,72 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ex02
+namespace Ex05
 {
     internal class GameLogic
     {
+        private readonly List<Color> r_TargetColors;
+
         public GameLogic()
         {
-            StartGame();
+            r_TargetColors = generateTargetColors();
         }
 
-        public void StartGame()
+        private List<Color> generateTargetColors()
         {
-            // $G$ DSN-002 (-20) UI class should have a reference to the logic class and not the other way around.
-            // Also the reference should be defined as a data member.
-            // $G$ DSN-003 (-3) The code should be divided to methods.
-            GameUI gameUI = new GameUI();
-            bool         isKeepPlaying = true;
-            bool         isGameWon;
-            int          numberOfGuesses;
-            List<Pin>    historyOfPins;
-            List<Result> historyOfFeedbacks;
-            Pin          targetPin;
-            Pin          currentPin;
-            Result       currentResult;
-            int          guessCount = 0;
+            List<Color> availableColors = GameConstants.k_AllowedColors.ToList(); // constant from GameConstants.cs
+            Random rnd = new Random();
+            return availableColors.OrderBy(_ => rnd.Next()).Take(4).ToList();
+        }
 
-            while (isKeepPlaying) 
+        public List<Color> TargetColors => r_TargetColors;
+
+        public List<Color> GetFeedback(List<Color> i_UserGuess)
+        {
+            var feedback = new List<Color>();
+            var targetFlags = new bool[4];
+            var guessFlags = new bool[4];
+
+            // Step 1: Find exact matches (black pegs)
+            for (int i = 0; i < 4; i++)
             {
-                isGameWon = false;
-                numberOfGuesses = gameUI.getNumberOfGuesses();
-                historyOfPins = new List<Pin>();
-                historyOfFeedbacks = new List<Result>();
-                targetPin = Pin.GenerateTargetPin();
-                // $G$ DSN-002 (0) UI needs to ask the logic layer if attempts are done. UI should not control game flow logic like number of attempts.
-                for (int i = 0; i < numberOfGuesses; i++)
+                if (i_UserGuess[i] == r_TargetColors[i])
                 {
-                    gameUI.ClearScreen();
-                    gameUI.PrintTheBoard(historyOfPins,historyOfFeedbacks); 
-                    currentPin = gameUI.GetUserGuess();
+                    feedback.Add(Color.Black);
+                    targetFlags[i] = true;
+                    guessFlags[i] = true;
+                }
+            }
 
-                    if (currentPin.m_PinValue == "Q")
+            // Step 2: Find color-only matches (yellow pegs)
+            for (int i = 0; i < 4; i++)
+            {
+                if (guessFlags[i]) continue;
+
+                for (int j = 0; j < 4; j++)
+                {
+                    if (!targetFlags[j] && i_UserGuess[i] == r_TargetColors[j])
                     {
-                        gameUI.ClearScreen();
-                        gameUI.ShowExit();
-                        return;
-                        // $G$ CSS-027 (-2) Missing blank line before return statement.
-                    }
-
-                    currentResult = new Result(currentPin, targetPin);
-                    historyOfFeedbacks.Add(currentResult);
-                    historyOfPins.Add(currentPin);
-
-                    if (currentResult.GetResult() == GameConstants.k_WinResult)
-                    {
-                        guessCount = i + 1;
-                        isGameWon = true;
+                        feedback.Add(Color.Gold);
+                        targetFlags[j] = true;
                         break;
                     }
                 }
-
-                gameUI.ClearScreen();
-                gameUI.PrintTheBoard(historyOfPins, historyOfFeedbacks);
-
-                if (!isGameWon)
-                {
-                    gameUI.ShowLose(targetPin.m_PinValue);
-                }
-                // $G$ CSS-027 (-1) Unnecessary blank line.
-                else
-                {
-                    gameUI.ShowWin(guessCount);
-                }
-
-                gameUI.ShowPlayAgain(ref isKeepPlaying);
-                if (isKeepPlaying)
-                {
-                    gameUI.ClearScreen();
-                }
-                else
-                {
-                    gameUI.ShowExit();
-                }
-                // $G$ CSS-027 (-1) Unnecessary blank line.
             }
-            // $G$ CSS-027 (-1) Unnecessary blank line.
+
+            // Fill the rest with empty feedback (gray)
+            while (feedback.Count < 4)
+            {
+                feedback.Add(Color.LightGray);
+            }
+
+            return feedback;
+        }
+
+        public bool IsWin(List<Color> i_UserGuess)
+        {
+            return i_UserGuess.SequenceEqual(r_TargetColors);
         }
     }
 }

@@ -1,20 +1,18 @@
-// $G$ RUL-004 (-20) Directory name 'B25 Ex02 NadavSimon 324023654 AlmogGabay  319123527' does not match the required format.
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
-// $G$ SFN-013 (-7) The program does not handle invalid input appropriately. 'abcd' should not be accepted. Only uppercased letters
-
-namespace Ex02
+namespace Ex05
 {
-    internal class Program
+    static class Program
     {
-        public static void Main()
+        [STAThread]
+        static void Main()
         {
-            // $G$ DSN-999 (-3) You should have used a method like .Run() instead of running the program when creating the instance.
-            GameLogic game = new GameLogic();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            // Test with hardcoded value or launch input form
+            Application.Run(new MainForm(6)); // Example: 6 guesses
         }
     }
 }

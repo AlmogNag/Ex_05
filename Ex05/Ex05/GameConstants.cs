@@ -1,18 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System.Drawing;
 
-namespace Ex02
+
+namespace Ex05
 {
-    internal class GameConstants
+    public static class GameConstants
     {
-        // $G$ DSN-002 (0) Expected length is a pure logic constant and should not be here.
-        public const string k_WinResult = "VVVV";
-        public const string k_AllowedLetters = "ABCDEFGH";
-        public const int    k_ExpectedLength = 4;
-        public const int    k_PinsColWidth = 9;
-        public const int    k_ResultColWidth = 7;
+        public static readonly Color[] k_AllowedColors = new Color[]
+        {
+            Color.Red, 
+            Color.Blue, 
+            Color.Yellow, 
+            Color.Green, 
+            Color.Purple, 
+            Color.Orange,
+            Color.Cyan, 
+            Color.Fuchsia
+        };
     }
+
 }
