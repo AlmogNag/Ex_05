@@ -110,7 +110,7 @@
             // 
             // buttonPurple
             // 
-            this.buttonPurple.BackColor = System.Drawing.Color.DarkMagenta;
+            this.buttonPurple.BackColor = System.Drawing.Color.Purple;
             this.buttonPurple.Location = new System.Drawing.Point(12, 68);
             this.buttonPurple.Name = "buttonPurple";
             this.buttonPurple.Size = new System.Drawing.Size(51, 50);

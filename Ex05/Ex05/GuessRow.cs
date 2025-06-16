@@ -17,7 +17,8 @@ namespace Ex05
         {
             RowPanel.Height = 55;
             RowPanel.Dock = DockStyle.Top;
-            RowPanel.Padding = new Padding(5);
+            RowPanel.Padding = new Padding(0);
+            RowPanel.Margin = new Padding(0);
             RowPanel.WrapContents = false;
             RowPanel.AutoSize = true;
             RowPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink;
@@ -57,7 +58,7 @@ namespace Ex05
                     Height = 15,
                     BorderStyle = BorderStyle.FixedSingle,
                     BackColor = Color.LightGray,
-                    Margin = new Padding(3)
+                    Margin = new Padding(3, 15,3 ,3)
                 };
                 FeedbackBoxes[i] = feedback;
                 RowPanel.Controls.Add(feedback);

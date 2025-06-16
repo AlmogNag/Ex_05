@@ -16,6 +16,12 @@ namespace Ex05
         public GameForm(int i_NumOfGuesses)
         {
             InitializeComponent();
+
+            this.flowLayoutPanelTopRow.Padding = new Padding(0);
+            this.flowLayoutPanelTopRow.Margin = new Padding(0);
+            this.flowLayoutPanelGuessRows.Padding = new Padding(0);
+            this.flowLayoutPanelGuessRows.Margin = new Padding(0);
+
             r_NumOfGuesses = i_NumOfGuesses;
             m_GameLogic = new GameLogic();
             InitializeGameBoard();
@@ -32,7 +38,8 @@ namespace Ex05
                     Height = 45,
                     BackColor = Color.Black,
                     Enabled = false,
-                    Margin = new Padding(5)
+                    Margin = new Padding(5),
+                    Padding = new Padding(0)
                 };
                 flowLayoutPanelTopRow.Controls.Add(secretBtn);
                 m_TopSecretButtons[i] = secretBtn;
