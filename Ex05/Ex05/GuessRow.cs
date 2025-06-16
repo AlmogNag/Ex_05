@@ -25,7 +25,7 @@ namespace Ex05
             RowPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink;
 
             // Color buttons
-            for (int i = 0; i < 4; i++)
+            for (int button = 0; button < 4; button++)
             {
                 var colorBtn = new Button
                 {
@@ -34,10 +34,10 @@ namespace Ex05
                     BackColor = Color.Gray,
                     Margin = new Padding(5),
                     Enabled = false,
-                    Tag = i
+                    Tag = button
                 };
                 colorBtn.Click += colorClickHandler;
-                ColorButtons[i] = colorBtn;
+                ColorButtons[button] = colorBtn;
                 RowPanel.Controls.Add(colorBtn);
             }
 

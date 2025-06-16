@@ -22,7 +22,6 @@ namespace Ex05
         private void buttonGetNumberOfChancesOnClick (object sender, EventArgs e)
         {
             if (m_NumOfChances < 10) m_NumOfChances++;
-        
             else
             {
                 m_NumOfChances = 4;

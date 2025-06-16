@@ -48,13 +48,13 @@ namespace Ex05
             }
 
             // Guess rows
-            for (int i = 0; i < r_NumOfGuesses; i++)
+            for (int currGuess = 0; currGuess < r_NumOfGuesses; currGuess++)
             {
-                GuessRow row = new GuessRow(i, onColorClick, onSubmitClick);
+                GuessRow row = new GuessRow(currGuess, onColorClick, onSubmitClick);
                 m_GuessRows.Add(row);
                 flowLayoutPanelGuessRows.Controls.Add(row.RowPanel);
 
-                if (i == 0)
+                if (currGuess == 0)
                 {
                     row.Enable();
                 }
@@ -94,11 +94,10 @@ namespace Ex05
             List<Color> guess = currentRow.ColorButtons.Select(b => b.BackColor).ToList();
 
             List<Color> feedback = m_GameLogic.GetFeedback(guess);
-            for (int i = 0; i < 4; i++)
+            for (int position = 0; position < 4; position++)
             {
-                currentRow.FeedbackBoxes[i].BackColor = feedback[i];
+                currentRow.FeedbackBoxes[position].BackColor = feedback[position];
             }
-
             currentRow.Disable();
 
             if (m_GameLogic.IsWin(guess))
@@ -123,9 +122,9 @@ namespace Ex05
         private void revealAnswer()
         {
             List<Color> target = m_GameLogic.TargetColors;
-            for (int i = 0; i < 4; i++)
+            for (int position = 0; position < 4; position++)
             {
-                m_TopSecretButtons[i].BackColor = target[i];
+                m_TopSecretButtons[position].BackColor = target[position];
             }
         }
 

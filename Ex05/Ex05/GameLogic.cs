@@ -7,7 +7,6 @@ namespace Ex05
     internal class GameLogic
     {
         private readonly List<Color> r_TargetColors;
-
         public GameLogic()
         {
             r_TargetColors = generateTargetColors();
@@ -29,27 +28,27 @@ namespace Ex05
             var guessFlags = new bool[4];
 
             // Step 1: Find exact matches (black pegs)
-            for (int i = 0; i < 4; i++)
+            for (int currPosition = 0; currPosition < 4; currPosition++)
             {
-                if (i_UserGuess[i] == r_TargetColors[i])
+                if (i_UserGuess[currPosition] == r_TargetColors[currPosition])
                 {
                     feedback.Add(Color.Black);
-                    targetFlags[i] = true;
-                    guessFlags[i] = true;
+                    targetFlags[currPosition] = true;
+                    guessFlags[currPosition] = true;
                 }
             }
 
             // Step 2: Find color-only matches (yellow pegs)
-            for (int i = 0; i < 4; i++)
+            for (int currPosition = 0; currPosition < 4; currPosition++)
             {
-                if (guessFlags[i]) continue;
+                if (guessFlags[currPosition]) continue;
 
-                for (int j = 0; j < 4; j++)
+                for (int targetPosition = 0; targetPosition < 4; targetPosition++)
                 {
-                    if (!targetFlags[j] && i_UserGuess[i] == r_TargetColors[j])
+                    if (!targetFlags[targetPosition] && i_UserGuess[currPosition] == r_TargetColors[targetPosition])
                     {
                         feedback.Add(Color.Gold);
-                        targetFlags[j] = true;
+                        targetFlags[targetPosition] = true;
                         break;
                     }
                 }
@@ -60,7 +59,6 @@ namespace Ex05
             {
                 feedback.Add(Color.LightGray);
             }
-
             return feedback;
         }
 
