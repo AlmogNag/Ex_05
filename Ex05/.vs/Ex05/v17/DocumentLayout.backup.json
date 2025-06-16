@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\ex05\\gameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex_05\\ex05\\ex05\\guessrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\guessrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex_05\\ex05\\ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex_05\\ex05\\ex05\\gameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex_05\\ex05\\ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex_05\\ex05\\ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\colorpickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex_05\\ex05\\ex05\\colorpickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\ex05\\colorpickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F6523E6-D98D-4555-A9BE-279D516BCD4D}|Ex05\\Ex05.csproj|solutionrelative:ex05\\colorpickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 118,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GuessRow.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GuessRow.cs",
               "RelativeDocumentMoniker": "Ex05\\GuessRow.cs",
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GuessRow.cs",
               "RelativeToolTip": "Ex05\\GuessRow.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwDkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T07:45:35.088Z",
               "EditorCaption": ""
@@ -63,9 +63,9 @@
               "Title": "GameForm.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.cs",
               "RelativeDocumentMoniker": "Ex05\\GameForm.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.cs",
-              "RelativeToolTip": "Ex05\\GameForm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.cs*",
+              "RelativeToolTip": "Ex05\\GameForm.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T07:44:12.147Z",
               "EditorCaption": ""
@@ -76,21 +76,21 @@
               "Title": "GameForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.Designer.cs",
               "RelativeDocumentMoniker": "Ex05\\GameForm.Designer.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.Designer.cs",
-              "RelativeToolTip": "Ex05\\GameForm.Designer.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwA8AAABFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.Designer.cs*",
+              "RelativeToolTip": "Ex05\\GameForm.Designer.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T07:16:08.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GameForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.cs",
               "RelativeDocumentMoniker": "Ex05\\GameForm.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.cs [Design]",
-              "RelativeToolTip": "Ex05\\GameForm.cs [Design]",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\GameForm.cs [Design]*",
+              "RelativeToolTip": "Ex05\\GameForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T07:16:00.657Z",
               "EditorCaption": " [Design]"
@@ -104,8 +104,7 @@
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex_05\\Ex05\\Ex05\\ColorPickerForm.cs [Design]",
               "RelativeToolTip": "Ex05\\ColorPickerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:15:57.665Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-16T07:15:57.665Z"
             },
             {
               "$type": "Document",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "Ex05\\ColorPickerForm.Designer.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAYwHIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:07:35.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:07:35.472Z"
             }
           ]
         }

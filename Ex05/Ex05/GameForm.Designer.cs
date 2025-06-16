@@ -40,9 +40,9 @@
             this.flowLayoutPanelTopRow.AutoSize = true;
             this.flowLayoutPanelTopRow.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanelTopRow.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanelTopRow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanelTopRow.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanelTopRow.Name = "flowLayoutPanelTopRow";
-            this.flowLayoutPanelTopRow.Size = new System.Drawing.Size(563, 0);
+            this.flowLayoutPanelTopRow.Size = new System.Drawing.Size(456, 0);
             this.flowLayoutPanelTopRow.TabIndex = 0;
             // 
             // flowLayoutPanelGuessRows
@@ -50,19 +50,19 @@
             this.flowLayoutPanelGuessRows.AutoScroll = true;
             this.flowLayoutPanelGuessRows.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanelGuessRows.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanelGuessRows.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanelGuessRows.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanelGuessRows.Name = "flowLayoutPanelGuessRows";
-            this.flowLayoutPanelGuessRows.Size = new System.Drawing.Size(563, 645);
+            this.flowLayoutPanelGuessRows.Size = new System.Drawing.Size(456, 645);
             this.flowLayoutPanelGuessRows.TabIndex = 1;
             // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(563, 645);
+            this.ClientSize = new System.Drawing.Size(456, 645);
             this.Controls.Add(this.flowLayoutPanelGuessRows);
             this.Controls.Add(this.flowLayoutPanelTopRow);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GameForm";
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.GameForm_Load);

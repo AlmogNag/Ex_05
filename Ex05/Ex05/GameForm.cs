@@ -16,6 +16,8 @@ namespace Ex05
         public GameForm(int i_NumOfGuesses)
         {
             InitializeComponent();
+            this.flowLayoutPanelGuessRows.FlowDirection = FlowDirection.TopDown;
+            this.flowLayoutPanelGuessRows.WrapContents = false;
 
             this.flowLayoutPanelTopRow.Padding = new Padding(0);
             this.flowLayoutPanelTopRow.Margin = new Padding(0);

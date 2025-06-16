@@ -12,6 +12,7 @@ namespace Ex05
         public Button[] ColorButtons { get; } = new Button[4];
         public Button SubmitButton { get; } = new Button();
         public Label[] FeedbackBoxes { get; } = new Label[4];
+        private TableLayoutPanel m_FeedbackPanel = new TableLayoutPanel();
 
         public GuessRow(int rowIndex, EventHandler colorClickHandler, EventHandler submitClickHandler)
         {
@@ -49,7 +50,23 @@ namespace Ex05
             SubmitButton.Margin = new Padding(10, 5, 10, 5);
             RowPanel.Controls.Add(SubmitButton);
 
-            // Feedback labels (color squares)
+            // Feedback panel (2x2)
+            m_FeedbackPanel.RowCount = 2;
+            m_FeedbackPanel.ColumnCount = 2;
+            m_FeedbackPanel.Width = 40;
+            m_FeedbackPanel.Height = 40;
+            m_FeedbackPanel.Margin = new Padding(10, 8, 10, 5);
+
+            for (int row = 0; row < 2; row++)
+            {
+                m_FeedbackPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            }
+            for (int col = 0; col < 2; col++)
+            {
+                m_FeedbackPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            }
+
+            // Add feedback boxes
             for (int i = 0; i < 4; i++)
             {
                 var feedback = new Label
@@ -58,11 +75,16 @@ namespace Ex05
                     Height = 15,
                     BorderStyle = BorderStyle.FixedSingle,
                     BackColor = Color.LightGray,
-                    Margin = new Padding(3, 15,3 ,3)
+                    Margin = new Padding(2)
                 };
                 FeedbackBoxes[i] = feedback;
-                RowPanel.Controls.Add(feedback);
+
+                // add 2x2 table
+                int row = i / 2;
+                int col = i % 2;
+                m_FeedbackPanel.Controls.Add(feedback, col, row);
             }
+            RowPanel.Controls.Add(m_FeedbackPanel);
         }
 
         public void Enable()
